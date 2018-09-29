@@ -1,0 +1,124 @@
+{
+  "pages" : {
+
+    "home": {
+      "images" : {
+        "jumbo":"https://78.media.tumblr.com/eb8758668507a5d56e63f1c2b7d4f39e/tumblr_p0zg95Y2Pp1usza8co1_1280.png",
+        "img1": "https://78.media.tumblr.com/eb8758668507a5d56e63f1c2b7d4f39e/tumblr_p0zg95Y2Pp1usza8co1_1280.png"
+      },
+      "greeting text": "hello! Welcome to my shop"
+    },
+
+    "about" : {
+      "images" : {
+        "jumbo":"https://78.media.tumblr.com/eb8758668507a5d56e63f1c2b7d4f39e/tumblr_p0zg95Y2Pp1usza8co1_1280.png",
+        "img1": "https://78.media.tumblr.com/eb8758668507a5d56e63f1c2b7d4f39e/tumblr_p0zg95Y2Pp1usza8co1_1280.png"
+      },
+      "header": "About Us",
+      "bio": "I blah blah",
+      "mission": "merp blerp",
+      "action statment": "Join now!"
+    }
+
+  },
+
+  "general" : {
+
+    "pallet" : {
+      "neutral": [
+        "#353535",
+        "#FFFFFF",
+        "#D2D7DF",
+        "#BDBBB0",
+        "#8A897C"
+      ],
+
+      "blue_orange": [
+        "#FE9000",
+        "#67C6FC",
+        "#2667FF",
+        "#3F8EFC",
+        "#ADD7F6"
+      ]
+    },
+    "testimonials": {
+      "Frank H": {
+        "testimonial": "I really love this and blah blah",
+        "title": "customer"
+      },
+
+      "Sally M": {
+        "testimonial": "Perfect service, all around great people",
+        "title": "alumni"
+      }
+    },
+    "name": "cat Test",
+    "email": "chelseamegandover@gmail.com",
+    "adress": "9220 sw Corbet Ave. Portland OR 97210"
+  },
+
+  "products" : {
+    "Cat t-shirt": {
+      "description": "cute lil' cat t-shirt",
+      "price": 9.99,
+      "quanity": 10,
+      "sizes": [
+          "extra small",
+          "small",
+          "medium",
+          "large",
+          "extra large",
+          "xx large",
+          "xxx large"
+        ],
+      "colors": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+      "tags": [
+        "shirt",
+        "cat",
+        "cute",
+        "womans"
+        ],
+      "reveiws": {
+        "name": "Joe Bob",
+        "review": "This is great!",
+        "stars": 5
+      }
+    },
+    "Cat dress": {
+      "description": "long swing cat dress",
+      "price": 19.99,
+      "quanity": 50,
+      "sizes": [
+          "extra small",
+          "small",
+          "medium",
+          "large",
+          "extra large",
+          "xx large",
+          "xxx large"
+        ],
+      "colors": [
+          "red",
+          "white"
+        ],
+      "tags": [
+        "dress",
+        "cat",
+        "full",
+        "retro",
+        "cute",
+        "womans"
+        ],
+      "reveiws": {
+        "name": "Frank Joe",
+        "review": "Eh, it's okay",
+        "stars": 3
+      }
+    }
+  }
+}
