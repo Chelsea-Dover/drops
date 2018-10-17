@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import HeaderLinks from './HeaderLinks'
+import Navigation from './Navigation'
 import SeparatePages from './SeparatePages'
+import AdminSignIn from './AdminSignIn'
 
 const SERVER_ROOT = 'https://drops-f0c8d.firebaseio.com/'
 
@@ -53,15 +54,21 @@ class App extends Component {
         />
       )
     }
+    const AdminAuth = ({match}) => {
+      return (
+        <AdminSignIn/>
+      )
+    }
     return (
       <Router>
         <div>
           <nav>
-            <HeaderLinks
+            <Navigation
               pages={this.state.pages}
             />
           </nav>
           <Route exact path='/' component={SinglePage}/>
+          <Route exact path='/admin' component={AdminAuth}/>
           <Route path='/:title' component={SinglePage}/>
         </div>
       </Router>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {
   Link } from 'react-router-dom';
 
-export default class HeaderLinks extends Component {
+export default class Navigation extends Component {
   render () {
     if (this.props.pages === undefined) {
       return null
@@ -26,6 +26,6 @@ export default class HeaderLinks extends Component {
   }
 }
 
-HeaderLinks.propTypes = {
+Navigation.propTypes = {
   pages: PropTypes.array
 }
